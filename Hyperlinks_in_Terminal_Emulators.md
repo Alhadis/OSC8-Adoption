@@ -163,4 +163,4 @@ Due to the syntax, additional parameter values cannot contain the `:` and `;` ch
 
 - [GNOME Terminal discussion](https://bugzilla.gnome.org/show_bug.cgi?id=779734)
 - [iTerm2 discussion](https://gitlab.com/gnachman/iterm2/issues/5158)
-- FIXME test file
+- [Test file](https://git.gnome.org/browse/vte/plain/perf/hyperlink-demo.txt)
