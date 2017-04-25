@@ -81,7 +81,7 @@ Following this, all subsequent cells that are painted are hyperlinks to this tar
 
 `OSC` (operating system command) is typically `ESC` `]`.
 
-`params` is an optional a list of `key=value` assignments, separated by the `:` character. Example: `id=xyz123:foo=bar:baz=quux`. Currently only the `id` key is defined, see below. These parameters allow future extendability of this feature. In the typical case no parameters are defined, in that case obviously the two semicolons have to be present next to each other.
+`params` is an optional list of `key=value` assignments, separated by the `:` character. Example: `id=xyz123:foo=bar:baz=quux`. Currently only the `id` key is defined, see below. These parameters allow future extendability of this feature. In the typical case no parameters are defined, in that case obviously the two semicolons have to be present next to each other.
 
 `URI` is the target of the hyperlink in URI-encoded form. Web addresses need to begin with `http://` or `https://`. Use `ftp://` for FTP, `file://` for local files (see below for the hostname), `mailto:` scheme for e-mail addresses, etc.
 
