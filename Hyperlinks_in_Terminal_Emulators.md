@@ -40,6 +40,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
   - [Tilix](https://github.com/gnunn1/tilix/issues/904)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
+- [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
 
 ### Apps
 (none yet)
