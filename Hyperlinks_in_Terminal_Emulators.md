@@ -45,7 +45,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 
 ### Apps
-(none yet)
+None yet. Planned to send request soon to at least these: tmux, vim, neovim, emacs, less -R, ls (coreutils).
 
 ## A few use cases
 
