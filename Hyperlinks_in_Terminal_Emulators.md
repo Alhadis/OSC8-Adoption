@@ -30,6 +30,8 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 ## Feature requests sent
 
 ### Terminal emulators
+- [Kitty](https://github.com/kovidgoyal/kitty/issues/68)
+- [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
 - `VTE`-based:
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
@@ -41,7 +43,6 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
   - [Tilix](https://github.com/gnunn1/tilix/issues/904)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
-- [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
 
 ### Apps
 (none yet)
