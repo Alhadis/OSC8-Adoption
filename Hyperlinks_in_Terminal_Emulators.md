@@ -30,7 +30,16 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 ## Feature requests sent
 
 ### Terminal emulators
-(none yet)
+- `VTE`-based:
+  - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
+  - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
+  - [Sakura](https://bugs.launchpad.net/sakura/+bug/1686823)
+  - [Terminator](https://bugs.launchpad.net/terminator/+bug/1686821)
+  - [Termit](https://github.com/nonstop/termit/issues/109)
+  - [Termite](https://github.com/thestinger/termite/issues/476)
+  - [Tilda](https://github.com/lanoxx/tilda/issues/285)
+  - [Tilix](https://github.com/gnunn1/tilix/issues/904)
+  - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 
 ### Apps
 (none yet)
