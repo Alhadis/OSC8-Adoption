@@ -33,6 +33,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 - `VTE`-based:
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
+  - [RoxTerm](https://sourceforge.net/p/roxterm/feature-requests/74/)
   - [Sakura](https://bugs.launchpad.net/sakura/+bug/1686823)
   - [Terminator](https://bugs.launchpad.net/terminator/+bug/1686821)
   - [Termit](https://github.com/nonstop/termit/issues/109)
