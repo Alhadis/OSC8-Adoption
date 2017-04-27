@@ -4,7 +4,7 @@ Most of the terminal emulators auto-detect when a URL appears onscreen and allow
 
 It was, however, not possible until now for arbitrary text to point to URLs, just as on webpages.
 
-In spring 2017, [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) and [iTerm2](http://iterm2.com/) have changed this.
+In spring 2017, `GNOME Terminal` and `iTerm2` have changed this.
 
 `GNOME Terminal` is based on the `VTE` widget, and almost all of this work went to `VTE` (version 0.49.1). As such, we expect other `VTE`-based terminal emulators to catch up and add support really soon. Other terminal emulators are also welcome and encouraged to join!
 
@@ -19,9 +19,9 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 ## Supporting apps
 
 ### Terminal emulators
-- `iTerm2` 3.1.beta.3
+- [iTerm2](http://iterm2.com/) 3.1.beta.3
 - based on `VTE` 0.49.1:
-  - `GNOME Terminal` 3.25.1
+  - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.25.1
 
 ### Apps
 - `less -R`: preliminary patch available in the GNOME Terminal discussion
