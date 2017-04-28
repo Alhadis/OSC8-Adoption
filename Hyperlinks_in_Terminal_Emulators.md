@@ -30,7 +30,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 ## Feature requests sent
 
 ### Terminal emulators
-- [Kitty](https://github.com/kovidgoyal/kitty/issues/68)
+- [Kitty](https://github.com/kovidgoyal/kitty/issues/68) (*)
 - [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
 - `VTE`-based:
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
@@ -43,6 +43,8 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
   - [Tilix](https://github.com/gnunn1/tilix/issues/904)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
+
+(*) The Unix/Linux terminal emulator. Not to be confused with the Windows PuTTY-fork terminal emulator named `KiTTY`.
 
 ### Apps
 None yet. Planned to send request soon to at least these: tmux, screen, vim, neovim, emacs, less -R, ls (coreutils), groff.
