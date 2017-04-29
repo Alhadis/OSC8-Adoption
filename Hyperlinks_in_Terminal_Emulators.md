@@ -44,7 +44,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [Tilix](https://github.com/gnunn1/tilix/issues/904)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 
-(*) The Unix/Linux terminal emulator. Not to be confused with the Windows PuTTY-fork terminal emulator named `KiTTY`.
+(*) The Linux and macOS terminal emulator. Not to be confused with the Windows PuTTY-fork named `KiTTY`.
 
 ### Apps
 None yet. Planned to send request soon to at least these: tmux, screen, vim, neovim, emacs, less -R, ls (coreutils), groff.
