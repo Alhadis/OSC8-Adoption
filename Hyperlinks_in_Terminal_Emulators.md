@@ -161,7 +161,7 @@ Terminal emulators traditionally use maybe a dozen or so bytes per cell. Adding 
 
 Both VTE and iTerm2 limit the URI to 2083 bytes. There's no de jure limit, the de facto is 2000-ish. Internet Explorer supports 2083.
 
-VTE currently limits the `id` to 250 bytes. FIXME how about iTerm2?? It's subject to change without notice, and you should most definitely _not_ rely on this particular number. Utilities are kindly requested to stay way below this limit, so that a few layers of intermediate software that need to mangle the `id` (e.g. add a prefix denoting their window/pane ID) still stay safe. Of course such intermediate layers are also kindly requested to keep their added prefix at a reasonable size.
+VTE currently limits the `id` to 250 bytes. It's subject to change without notice, and you should most definitely _not_ rely on this particular number. Utilities are kindly requested to stay way below this limit, so that a few layers of intermediate software that need to mangle the `id` (e.g. add a prefix denoting their window/pane ID) still stay safe. Of course such intermediate layers are also kindly requested to keep their added prefix at a reasonable size. There's no limit for the `id`'s length in iTerm2.
 
 Terminal emulators might also impose a maximum length on the overall length of the OSC 8 escape sequence, including all its parameters.
 
