@@ -37,7 +37,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
   - [RoxTerm](https://sourceforge.net/p/roxterm/feature-requests/74/)
   - [Sakura](https://bugs.launchpad.net/sakura/+bug/1686823)
-  - [Terminator](https://bugs.launchpad.net/terminator/+bug/1686821)
+  - [Terminator](https://bugs.launchpad.net/terminator/+bug/1686821) (**)
   - [Termit](https://github.com/nonstop/termit/issues/109)
   - [Termite](https://github.com/thestinger/termite/issues/476)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
@@ -45,6 +45,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 
 (*) The Linux and macOS terminal emulator. Not to be confused with the Windows PuTTY-fork named `KiTTY`.
+(**) The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.
 
 ### Apps
 None yet. Planned to send request soon to at least these: tmux, screen, vim, neovim, emacs, less -R, ls (coreutils), groff.
