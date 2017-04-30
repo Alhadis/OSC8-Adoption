@@ -45,6 +45,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 
 (*) The Linux and macOS terminal emulator. Not to be confused with the Windows PuTTY-fork named `KiTTY`.
+
 (**) The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.
 
 ### Apps
