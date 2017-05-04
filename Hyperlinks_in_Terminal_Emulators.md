@@ -20,7 +20,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 
 ### Terminal emulators
 - [iTerm2](http://iterm2.com/) 3.1.beta.3
-- based on `VTE` 0.49.1:
+- based on [VTE](https://wiki.gnome.org/Apps/Terminal/VTE) 0.49.1:
   - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.25.1
 
 ### Apps
