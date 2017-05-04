@@ -51,7 +51,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 
 ### Apps
 - `less -R` (in email on May 4, 2017)
-- Planned to send request soon to at least these: tmux, screen, vim, neovim, emacs, less -R, ls (coreutils), groff.
+- Planned to send request soon to at least these: tmux, screen, vim, neovim, emacs, ls (coreutils), groff.
 
 ## A few use cases
 
