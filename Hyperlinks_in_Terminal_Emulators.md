@@ -35,6 +35,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 - [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
 - `VTE`-based:
   - [Guake](https://github.com/Guake/guake/issues/945)
+  - [LilyTerm](https://github.com/Tetralet/LilyTerm/issues/117)
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
   - [RoxTerm](https://sourceforge.net/p/roxterm/feature-requests/74/)
