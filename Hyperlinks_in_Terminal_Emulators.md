@@ -38,7 +38,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [LilyTerm](https://github.com/Tetralet/LilyTerm/issues/117)
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
-  - [RoxTerm](https://sourceforge.net/p/roxterm/feature-requests/74/)
+  - [RoxTerm](https://sourceforge.net/p/roxterm/feature-requests/74/) <sup>(Abandoned project.)</sup>
   - [Sakura](https://bugs.launchpad.net/sakura/+bug/1686823)
   - [Terminator](https://bugs.launchpad.net/terminator/+bug/1686821) <sup>(The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.)</sup>
   - [Termit](https://github.com/nonstop/termit/issues/109)
