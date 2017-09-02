@@ -26,7 +26,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 
 ### Apps
 - `less -R`: Preliminary patch available in the GNOME Terminal discussion.
-- `ls --hyperlink=always/auto/never` (`coreutils`): Since version 8.28.
+- `ls --hyperlink[=always/auto/never]` (`coreutils`): Since version 8.28.
 
 ## Feature requests sent
 
