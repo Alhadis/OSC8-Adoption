@@ -49,7 +49,6 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
 - `less -R` (in email on May 4, 2017; resent on Aug 28; no response as of end of Sep)
-- [ls (coreutils)](http://lists.gnu.org/archive/html/coreutils/2017-05/msg00000.html)
 - [screen](https://savannah.gnu.org/bugs/index.php?50952)
 - [tmux](https://github.com/tmux/tmux/issues/911)
 - Planned to send request soon: vim, neovim, emacs, groff, find, grep.
