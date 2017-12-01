@@ -27,6 +27,11 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 ### Apps
 - `less -R`: Preliminary patch available in the GNOME Terminal discussion.
 - `ls --hyperlink[=always/auto/never]` (`coreutils`): Since version 8.28.
+- [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
+
+### Libraries
+- [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library
+- [brick](https://hackage.haskell.org/package/brick) high-level terminal UI library
 
 ## Feature requests sent
 
