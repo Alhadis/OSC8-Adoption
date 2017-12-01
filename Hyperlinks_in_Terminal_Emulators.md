@@ -30,8 +30,8 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
 
 ### Libraries
-- [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library
-- [brick](https://hackage.haskell.org/package/brick) high-level terminal UI library
+- [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
+- [brick](https://hackage.haskell.org/package/brick) high-level terminal UI library: Since October 2017.
 
 ## Feature requests sent
 
