@@ -19,6 +19,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 ## Supporting apps
 
 ### Terminal emulators
+- [DomTerm](https://domterm.org/) 1.0.2
 - [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) 1.76 
 - [iTerm2](http://iterm2.com/) 3.1
 - based on [VTE](https://wiki.gnome.org/Apps/Terminal/VTE) 0.50: <sup>(Use 0.50.1 or newer to avoid a rare segfault)</sup>
