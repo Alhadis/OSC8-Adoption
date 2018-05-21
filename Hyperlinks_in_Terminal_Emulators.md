@@ -22,7 +22,7 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
 - [DomTerm](https://domterm.org/) 1.0.2
 - [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) 1.76 
 - [iTerm2](http://iterm2.com/) 3.1
-- based on [VTE](https://wiki.gnome.org/Apps/Terminal/VTE) 0.50: <sup>(Use 0.50.1 or newer to avoid a rare segfault)</sup>
+- based on [VTE](https://wiki.gnome.org/Apps/Terminal/VTE) 0.50: <sup>(Use 0.50.4, 0.52.2, or newer to avoid a rare segfault)</sup>
   - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.26
   - [Guake](http://guake-project.org/) 3.2.1
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
