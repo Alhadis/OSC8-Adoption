@@ -28,6 +28,9 @@ echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
   - [Tilix](https://github.com/gnunn1/tilix) 1.5.8
 
+### Terminal Multiplexers
+- [TermySequence](https://termysequence.io/)
+
 ### Apps
 - `less -R`: Preliminary patch available in the GNOME Terminal discussion.
 - `ls --hyperlink[=always/auto/never]` (`coreutils`): Since version 8.28.
