@@ -13,7 +13,7 @@ In spring 2017, `GNOME Terminal` and `iTerm2` have changed this.
 Here's a simple command to try out the feature. The result is equivalent to this HTML link: [This is a link](http://example.com)
 
 ```
-echo -e '\e]8;;http://example.com\aThis is a link\e]8;;\a'
+echo -e '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\'
 ```
 
 ## Supporting apps
@@ -106,11 +106,11 @@ We're hoping to get `less -R` recognize and handle this escape sequence just as 
 
 A hyperlink is opened upon encountering an OSC 8 escape sequence with the target URI. The syntax is
 
-`OSC` `8` `;` `params` `;` `URI` `BEL|ST`
+`OSC` `8` `;` `params` `;` `URI` `ST|BEL`
 
 Following this, all subsequent cells that are painted are hyperlinks to this target. A hyperlink is closed with the same escape sequence, omitting the parameters and the URI but keeping the separators:
 
-`OSC` `8` `;` `;` `BEL|ST`
+`OSC` `8` `;` `;` `ST|BEL`
 
 `OSC` (operating system command) is typically `ESC` `]`.
 
@@ -118,7 +118,7 @@ Following this, all subsequent cells that are painted are hyperlinks to this tar
 
 `URI` is the target of the hyperlink in URI-encoded form. Web addresses need to begin with `http://` or `https://`. Use `ftp://` for FTP, `file://` for local files (see below for the hostname), `mailto:` scheme for e-mail addresses, etc. It's up to the terminal emulator to decide what schemes it supports and which applications it launches for them.
 
-The sequence is terminated either with the `BEL` (a.k.a. `\a`) character, or with the `ST` sequence terminator which is typically `ESC` `\`.
+The sequence is terminated either with the `ST` string terminator which is typically `ESC` `\`, or with the `BEL` (a.k.a. `\a`) character. ECMA-48 only mentions `ST`, we're unsure where the use of `BEL` originates for. Hence we encourage the use of `ST`.
 
 (For `OSC` and `ST`, their C0 variant was shown above. They have another, C1 form which might be supported in some contexts. In 8-bit Latin-X character sets they are the single bytes `0x9d` and `0x9c`, respectively. In UTF-8 mode some terminal emulators deliberately do not implement C1 support because these bytes would conflict with the UTF-8 encoding, while some other terminal emulators recognize the UTF-8 representation of `U+009d` (i.e. `0xc2` `0x9d`) and `U+009c` (i.e. `0xc2` `0x9c`), respectively. Since C1 is not universally supported in today's default UTF-8 encoding, its use is discouraged.)
 
