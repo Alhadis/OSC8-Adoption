@@ -106,11 +106,11 @@ We're hoping to get `less -R` recognize and handle this escape sequence just as 
 
 A hyperlink is opened upon encountering an OSC 8 escape sequence with the target URI. The syntax is
 
-`OSC` `8` `;` `params` `;` `URI` `ST|BEL`
+`OSC` `8` `;` `params` `;` `URI` `ST`
 
 Following this, all subsequent cells that are painted are hyperlinks to this target. A hyperlink is closed with the same escape sequence, omitting the parameters and the URI but keeping the separators:
 
-`OSC` `8` `;` `;` `ST|BEL`
+`OSC` `8` `;` `;` `ST`
 
 `OSC` (operating system command) is typically `ESC` `]`.
 
@@ -118,7 +118,7 @@ Following this, all subsequent cells that are painted are hyperlinks to this tar
 
 `URI` is the target of the hyperlink in URI-encoded form. Web addresses need to begin with `http://` or `https://`. Use `ftp://` for FTP, `file://` for local files (see below for the hostname), `mailto:` scheme for e-mail addresses, etc. It's up to the terminal emulator to decide what schemes it supports and which applications it launches for them.
 
-The sequence is terminated either with the `ST` string terminator which is typically `ESC` `\`, or with the `BEL` (a.k.a. `\a`) character. `ST` is the standard according to ECMA-48 §8.3.89, `BEL`'s common use originates from XTerm but is nonstandard. Hence we encourage the use of `ST`.
+The sequence is terminated with the `ST` (string terminator) which is typically `ESC` `\`. (Although `ST` is the standard sequence according to ECMA-48 §8.3.89, often the `BEL` (`\a`) character is used instead. This nonstandard choice originates from XTerm, and was lated adopted by probably all terminal emulators to terminate `OSC` sequences. Nevertheless, we encourage the use of the standard `ST`.)
 
 (For `OSC` and `ST`, their C0 variant was shown above. They have another, C1 form which might be supported in some contexts. In 8-bit Latin-X character sets they are the single bytes `0x9d` and `0x9c`, respectively. In UTF-8 mode some terminal emulators deliberately do not implement C1 support because these bytes would conflict with the UTF-8 encoding, while some other terminal emulators recognize the UTF-8 representation of `U+009d` (i.e. `0xc2` `0x9d`) and `U+009c` (i.e. `0xc2` `0x9c`), respectively. Since C1 is not universally supported in today's default UTF-8 encoding, its use is discouraged.)
 
