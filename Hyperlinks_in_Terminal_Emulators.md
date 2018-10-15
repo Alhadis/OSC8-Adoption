@@ -22,6 +22,7 @@ echo -e '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\'
 - [DomTerm](https://domterm.org/) 1.0.2
 - [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) 1.76 
 - [iTerm2](http://iterm2.com/) 3.1
+- [Terminology](https://www.enlightenment.org/about-terminology) in git since 2018-10-14, probably will be released in version 1.3
 - based on [VTE](https://wiki.gnome.org/Apps/Terminal/VTE) 0.50: <sup>(Use 0.50.4, 0.52.2, or newer to avoid a rare crash)</sup>
   - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.26
   - [Guake](http://guake-project.org/) 3.2.1
@@ -46,7 +47,6 @@ echo -e '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\'
 ### Terminal emulators
 - [Kitty](https://github.com/kovidgoyal/kitty/issues/68) <sup>(The Linux and macOS terminal emulator. Not to be confused with the Windows PuTTY-fork named `KiTTY`.)</sup>
 - [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
-- [Terminology](https://phab.enlightenment.org/T6329)
 - `VTE`-based:
   - [LilyTerm](https://github.com/Tetralet/LilyTerm/issues/117)
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
