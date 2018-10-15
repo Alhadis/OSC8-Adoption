@@ -152,6 +152,8 @@ In order to be able to do this, the lowercase `id` parameter was introduced whic
 
 Character cells that have the same target URI and the same nonempty `id` are always underlined together on mouseover.
 
+The same `id` is only used for connecting character cells whose URIs is also the same. Character cells pointing to different URIs should never be underlined together when hovering over.
+
 For hyperlink cells that do not have an `id` (or have an empty `id`, these two are interchangeable), the terminal emulator does some heuristics in figuring out which cells belong together. Here VTE and iTerm2 differ, but from a practical point of view, this difference should not matter. (VTE automatically assigns a new unique `id` whenever it encounters an OSC 8 with a URI but without `id`. That is, it automatically connects cells that were printed in a single OSC 8 run, in case there was no explicit `id`. iTerm2 looks at the onscreen contents and connects those cells that are next to each other, lack the `id`, but point to the same URI.)
 
 Terminal emulators that implement hyperlinks but don't want to underline on mouseover can simply ignore the `id` parameter.
