@@ -195,6 +195,20 @@ For portability, the parameters and the URI must not contain any bytes outside o
 
 Due to the syntax, additional parameter values cannot contain the `:` and `;` characters either. If required at a future extension, some escaping (such as URI-encoding or base64) should be chosen. (Should there ever be an extension to specify hover colors or attributes, I recommend considering going for the ANSI color and attribute notation with the upper dots removed, e.g. bold italic light gray `1;3;38:5:255` would become `1,3,38.5.255`.)
 
+## Security
+
+This feature doesn't introduce anything that's not already present while browsing the web. Therefore we believe security isn't a thing to worry about.
+
+In particular, if a webpage is exploitable by making someone visit a URL, passing along their cookies (e.g. doesn't have proper CSRF protection), it's already exploitable from a malicious website.
+
+Moreover, there's no "Referer" leakage to worry about.
+
+That being said, a few points have been raised that are worth noting here.
+
+Some locally installed applications might a register handle for some custom URI scheme (e.g. `foobar://`), and the handler application might be vulnerable in case the rest of the URI is maliciously crafted. Terminal emulators might decide to whitelist only some well known schemes and ask for the user's confirmation on less known ones.
+
+Some are worried that this feature is unexpected from users, and that introducing this somewhat automated link between the terminal and the browser works against the concept of "defense in depth". That is, it's possible that a multi-step attack, exploiting a vulnerability of a website, takes place by using social engineering to get someone follow such a link that they somehow receive in the terminal emulator. It's out of the scope of this specification to deal with such scenarios, this specification can only be responsible for direct security vulnerabilities that it might open. However, terminal emulators might consider adding the following lines of defense. They shouldn't open the link on a simple mouse click (that's for copy-pasting or reporting mouse events typically, anyway), only on some more complex user action such as Ctrl+click or via the right-click menu. They should let the user know the URI upfront. They could decide to present a confirmation dialog before opening it. They could even offer to disable this feature (or even have it disabled by default). People working in critical environments (or their sysadmins) could decide to disable this feature entirely.
+
 ## Links
 
 - [GNOME Terminal discussion](https://bugzilla.gnome.org/show_bug.cgi?id=779734)
