@@ -197,7 +197,7 @@ Due to the syntax, additional parameter values cannot contain the `:` and `;` ch
 
 ## Security
 
-This feature doesn't introduce anything that's not already present while browsing the web. Therefore we believe security isn't a thing to worry about.
+This feature doesn't introduce anything that's not already present while browsing the web. Therefore we believe this feature doesn't have security aspects to worry about.
 
 In particular, if a webpage is exploitable by making someone visit a URL, passing along their cookies (e.g. doesn't have proper CSRF protection), it's already exploitable from a malicious website.
 
