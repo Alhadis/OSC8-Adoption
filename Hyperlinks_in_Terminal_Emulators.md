@@ -23,6 +23,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) 1.76 
 - [iTerm2](http://iterm2.com/) 3.1
 - [Terminology](https://www.enlightenment.org/about-terminology) in git since 2018-10-14, probably will be released in version 1.3
+- [Ultimate++ terminal widget](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal)
 - based on [VTE](https://wiki.gnome.org/Apps/Terminal/VTE) 0.50: <sup>(Use 0.50.4, 0.52.2, or newer to avoid a rare crash)</sup>
   - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.26
   - [Guake](http://guake-project.org/) 3.2.1
@@ -33,11 +34,13 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [TermySequence](https://termysequence.io/)
 
 ### Apps
+- [gcc](https://gcc.gnu.org/): Since version 10 (???), for diagnostic messages to point to the documentation.
 - `less -R`: Preliminary patch available in the GNOME Terminal discussion.
 - `ls --hyperlink[=always/auto/never]` (`coreutils`): Since version 8.28.
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
 - [mdcat](https://github.com/lunaryorn/mdcat) (markdown cat): Since version 0.5.0.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
+- [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
 
 ### Libraries
 - [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
