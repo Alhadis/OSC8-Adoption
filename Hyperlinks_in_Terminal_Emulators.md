@@ -34,7 +34,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [TermySequence](https://termysequence.io/)
 
 ### Apps
-- [gcc](https://gcc.gnu.org/): Since version 10 (???), for diagnostic messages to point to the documentation.
+- [gcc](https://gcc.gnu.org/): Since version 10, for diagnostic messages to point to the documentation.
 - `less -R`: Preliminary patch available in the GNOME Terminal discussion.
 - `ls --hyperlink[=always/auto/never]` (`coreutils`): Since version 8.28.
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
