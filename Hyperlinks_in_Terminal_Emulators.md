@@ -29,6 +29,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [Guake](http://guake-project.org/) 3.2.1
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
   - [Tilix](https://github.com/gnunn1/tilix) 1.5.8
+- [WezTerm](http://wezfurlong.org/wezterm/index.html)
 
 ### Terminal Multiplexers
 - [TermySequence](https://termysequence.io/)
@@ -63,6 +64,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 - [xterm.js](https://github.com/xtermjs/xterm.js/issues/1134)
 - [hyper](https://github.com/zeit/hyper/issues/2501)
+- [Windows Terminal](https://github.com/microsoft/terminal/issues/204)
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
