@@ -182,6 +182,14 @@ Until then, almost all terminal emulators ignore the OSC sequences they don't kn
 
 The hyperlink feature should be used for providing convenient quick access to a target URI, but (at least by default) should not be the only means of figuring out the target.
 
+## Backward compatibility
+
+Any terminal that correctly implements OSC parsing according to ECMA-48 is guaranteed not to suffer from compatibility issues. That is, even if explicit hyperlinks aren't supported, the target URI is silently ignored and the supposed-to-be-visible text is display, without artifacts.
+
+If a terminal emits garbage upon an OSC 8 explicit hyperlink sequence, that terminal is buggy according to ECMA-48. It is, and will always be, outside of the scope of this specification to deal with buggy terminals.
+
+At this moment, terminals known to be buggy (OSC 8 resulting in display corruption) are VTE versions up to 0.44.x, 0.46.2 and 0.48.1, as well as [Windows Terminal](https://github.com/microsoft/terminal/issues/3081) (currently checked at version 0.8).
+
 ## Length limits
 
 Terminal emulators traditionally use maybe a dozen or so bytes per cell. Adding hyperlinks potentially increases it by magnitudes. As such, it's tricky to implement this feature in terminal emulators (without consuming way too much memory), and they probably want to expose some safety limits.
