@@ -186,7 +186,7 @@ Any terminal that correctly implements OSC parsing according to ECMA-48 is guara
 
 If a terminal emits garbage upon an OSC 8 explicit hyperlink sequence, that terminal is buggy according to ECMA-48. It is, and will always be, outside of the scope of this specification to deal with buggy terminals.
 
-At this moment, terminals known to be buggy (OSC 8 resulting in display corruption) are VTE versions up to 0.46.2 and 0.48.1, as well as [Windows Terminal](https://github.com/microsoft/terminal/issues/3081) (currently checked at version 0.8).
+At this moment, terminals known to be buggy (OSC 8 resulting in display corruption) are VTE versions up to 0.46.2 and 0.48.1, [Windows Terminal](https://github.com/microsoft/terminal/issues/3081) (currently checked at version 0.8), and Emacs's built-in terminal.
 
 ## Length limits
 
