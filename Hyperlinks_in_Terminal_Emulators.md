@@ -4,7 +4,7 @@ Most of the terminal emulators auto-detect when a URL appears onscreen and allow
 
 It was, however, not possible until now for arbitrary text to point to URLs, just as on webpages.
 
-In spring 2017, `GNOME Terminal` and `iTerm2` have changed this.
+In spring 2017, `GNOME Terminal` and `iTerm2` hav0e changed this.
 
 `GNOME Terminal` is based on the `VTE` widget, and almost all of this work went to `VTE`. As such, we expect other `VTE`-based terminal emulators to catch up and add support really soon. Other terminal emulators are also welcome and encouraged to join!
 
@@ -186,7 +186,7 @@ Any terminal that correctly implements OSC parsing according to ECMA-48 is guara
 
 If a terminal emits garbage upon an OSC 8 explicit hyperlink sequence, that terminal is buggy according to ECMA-48. It is, and will always be, outside of the scope of this specification to deal with buggy terminals.
 
-At this moment, terminals known to be buggy (OSC 8 resulting in display corruption) are VTE versions up to 0.44.x, 0.46.2 and 0.48.1, as well as [Windows Terminal](https://github.com/microsoft/terminal/issues/3081) (currently checked at version 0.8).
+At this moment, terminals known to be buggy (OSC 8 resulting in display corruption) are VTE versions up to 0.46.2 and 0.48.1, as well as [Windows Terminal](https://github.com/microsoft/terminal/issues/3081) (currently checked at version 0.8).
 
 ## Length limits
 
