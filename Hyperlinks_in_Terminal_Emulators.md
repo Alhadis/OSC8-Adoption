@@ -182,7 +182,7 @@ The hyperlink feature should be used for providing convenient quick access to a 
 
 ## Backward compatibility
 
-Any terminal that correctly implements OSC parsing according to ECMA-48 is guaranteed not to suffer from compatibility issues. That is, even if explicit hyperlinks aren't supported, the target URI is silently ignored and the supposed-to-be-visible text is display, without artifacts.
+Any terminal that correctly implements OSC parsing according to ECMA-48 is guaranteed not to suffer from compatibility issues. That is, even if explicit hyperlinks aren't supported, the target URI is silently ignored and the supposed-to-be-visible text is displayed, without artifacts.
 
 If a terminal emits garbage upon an OSC 8 explicit hyperlink sequence, that terminal is buggy according to ECMA-48. It is, and will always be, outside of the scope of this specification to deal with buggy terminals.
 
