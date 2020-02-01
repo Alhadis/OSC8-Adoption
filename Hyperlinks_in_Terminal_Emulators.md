@@ -178,8 +178,6 @@ Fullscreen apps that do not switch to the "alternate screen" of the terminal emu
 
 Currently there's no way of detecting whether the terminal emulator supports hyperlinks. We're hoping to address this at some point in the future.
 
-Until then, almost all terminal emulators ignore the OSC sequences they don't know about, so emitting OSC 8 will result in the anchor text not becoming a hyperlink, and the target URI getting lost. (Unfortunately `VTE` prior to 0.48.2 is an exception, it prints the URI plus some garbage too.)
-
 The hyperlink feature should be used for providing convenient quick access to a target URI, but (at least by default) should not be the only means of figuring out the target.
 
 ## Backward compatibility
