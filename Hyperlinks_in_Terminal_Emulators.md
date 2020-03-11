@@ -65,6 +65,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [xterm.js](https://github.com/xtermjs/xterm.js/issues/1134)
 - [hyper](https://github.com/zeit/hyper/issues/2501)
 - [Windows Terminal](https://github.com/microsoft/terminal/issues/204)
+- [ConEmu](https://github.com/Maximus5/ConEmu/issues/2078)
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
