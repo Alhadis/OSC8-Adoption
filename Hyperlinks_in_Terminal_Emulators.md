@@ -65,8 +65,8 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [Termite](https://github.com/thestinger/termite/issues/476)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
-- [xterm.js](https://github.com/xtermjs/xterm.js/issues/1134)
 - [Windows Terminal](https://github.com/microsoft/terminal/issues/204)
+- [xterm.js](https://github.com/xtermjs/xterm.js/issues/1134)
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
