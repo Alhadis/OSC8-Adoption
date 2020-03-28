@@ -50,6 +50,9 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 ## Feature requests sent
 
 ### Terminal emulators
+- [Alacritty](https://github.com/alacritty/alacritty/issues/922)
+- [ConEmu](https://github.com/Maximus5/ConEmu/issues/2078)
+- [hyper](https://github.com/zeit/hyper/issues/2501)
 - [Kitty](https://github.com/kovidgoyal/kitty/issues/68) <sup>(The Linux and macOS terminal emulator. Not to be confused with the Windows PuTTY-fork named `KiTTY`.)</sup>
 - [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
 - `VTE`-based:
@@ -63,9 +66,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 - [xterm.js](https://github.com/xtermjs/xterm.js/issues/1134)
-- [hyper](https://github.com/zeit/hyper/issues/2501)
 - [Windows Terminal](https://github.com/microsoft/terminal/issues/204)
-- [ConEmu](https://github.com/Maximus5/ConEmu/issues/2078)
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
