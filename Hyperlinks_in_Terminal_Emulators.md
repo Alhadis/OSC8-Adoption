@@ -70,7 +70,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
-- [less -R](http://www.greenwoodsoftware.com/less/bugs.html) (ref number 308)
+- [less -R](https://github.com/gwsw/less/issues/54)
 - [screen](https://savannah.gnu.org/bugs/index.php?50952)
 - [tmux](https://github.com/tmux/tmux/issues/911)
 - [weechat](https://github.com/weechat/weechat/issues/1252)
