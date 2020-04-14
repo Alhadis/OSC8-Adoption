@@ -40,6 +40,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - `ls --hyperlink[=always/auto/never]` (`coreutils`): Since version 8.28.
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
 - [mdcat](https://github.com/lunaryorn/mdcat) (markdown cat): Since version 0.5.0.
+- [Symfony](https://symfony.com/): Since version 4.3.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
 
