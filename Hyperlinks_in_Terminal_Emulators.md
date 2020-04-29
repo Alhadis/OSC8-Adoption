@@ -20,7 +20,8 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 
 ### Terminal emulators
 - [DomTerm](https://domterm.org/) 1.0.2
-- [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) 1.76 
+- [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) 1.76
+- [hyper](https://hyper.is/) since Oct 2019, version ???
 - [iTerm2](http://iterm2.com/) 3.1
 - [Terminology](https://www.enlightenment.org/about-terminology) in git since 2018-10-14, probably will be released in version 1.3
 - [Ultimate++ terminal widget](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal) since Nov 2019 (version ???)
