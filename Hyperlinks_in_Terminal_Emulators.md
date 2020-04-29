@@ -74,6 +74,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [Irssi](https://github.com/irssi/irssi/issues/700)
 - [less -R](https://github.com/gwsw/less/issues/54)
 - [screen](https://savannah.gnu.org/bugs/index.php?50952)
+- [tbvaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
 - [tmux](https://github.com/tmux/tmux/issues/911)
 - [weechat](https://github.com/weechat/weechat/issues/1252)
 - Planned to send request soon: vim, neovim, emacs, groff, find, grep.
