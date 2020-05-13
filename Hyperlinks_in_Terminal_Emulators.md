@@ -48,6 +48,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 ### Libraries
 - [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
 - [brick](https://hackage.haskell.org/package/brick) high-level terminal UI library: Since October 2017.
+- [Rich](https://github.com/willmcgugan/rich) rich text formatting library: Since May 2020.
 
 ## Feature requests sent
 
