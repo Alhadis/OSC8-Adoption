@@ -1,5 +1,7 @@
 # Hyperlinks (a.k.a. HTML-like anchors) in terminal emulators
 
+*[ Update 2020-05-31: I won't be maintaining this page or responding to comments anymore. The list of supporting software reflects the known state as of this date. ]*
+
 Most of the terminal emulators auto-detect when a URL appears onscreen and allow to conveniently open them (e.g. via Ctrl+click or Cmd+click, or the right click menu).
 
 It was, however, not possible until now for arbitrary text to point to URLs, just as on webpages.
