@@ -36,6 +36,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [Alacritty](https://github.com/alacritty/alacritty/) since v0.11: [PR](https://github.com/alacritty/alacritty/pull/6139)
 - [Kitty](https://github.com/kovidgoyal/kitty/issues/68) since v0.19: [issue](https://github.com/kovidgoyal/kitty/issues/68)
 - [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138)
+- [Windows Terminal](https://github.com/microsoft/terminal/issues/204) since [v1.4.3141.0](https://github.com/microsoft/terminal/releases/tag/v1.4.3141.0) (2020-11-12)
 
 ### Terminal Multiplexers
 - [TermySequence](https://termysequence.io/)
@@ -72,7 +73,6 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [Termite](https://github.com/thestinger/termite/issues/476)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
-- [Windows Terminal](https://github.com/microsoft/terminal/issues/204)
 - [xterm.js](https://github.com/xtermjs/xterm.js/issues/1134)
 
 ### Apps
