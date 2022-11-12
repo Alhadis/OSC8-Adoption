@@ -21,9 +21,9 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 ## Supporting apps
 
 ### Terminal emulators
-- [DomTerm](https://domterm.org/) 1.0.2
-- [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) 1.76
-- [hyper](https://hyper.is/) since Oct 2019, version ???
+- [DomTerm](https://domterm.org/) since [1.0.2](https://github.com/PerBothner/DomTerm/commit/19771fa894634d2423d6d097c8203892254dbcf4) (2018-05-09)
+- [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) since [1.76](https://github.com/chromium/hterm/releases/tag/v1.76) (2018-06-21)
+- [Hyper](https://hyper.is/) since Oct 2019, version ???
 - [iTerm2](http://iterm2.com/) 3.1
 - [Terminology](https://www.enlightenment.org/about-terminology) in git since 2018-10-14, probably will be released in version 1.3
 - [Ultimate++ terminal widget](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal) since Nov 2019 (version ???)
@@ -33,10 +33,11 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
   - [Tilix](https://github.com/gnunn1/tilix) 1.5.8
 - [WezTerm](http://wezfurlong.org/wezterm/index.html) since early 2018
-- [Alacritty](https://github.com/alacritty/alacritty/) since v0.11: [PR](https://github.com/alacritty/alacritty/pull/6139)
+- [Alacritty](https://github.com/alacritty/alacritty/) since [v0.11](https://github.com/alacritty/alacritty/releases/tag/v0.11.0) (2022-10-13)
 - [Kitty](https://github.com/kovidgoyal/kitty/issues/68) since v0.19: [issue](https://github.com/kovidgoyal/kitty/issues/68)
 - [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138)
 - [Windows Terminal](https://github.com/microsoft/terminal/issues/204) since [v1.4.3141.0](https://github.com/microsoft/terminal/releases/tag/v1.4.3141.0) (2020-11-12)
+- [xterm.js](https://xtermjs.org/) since [5.0.0](https://github.com/xtermjs/xterm.js/releases/tag/5.0.0) (2022-09-16)
 
 ### Terminal Multiplexers
 - [TermySequence](https://termysequence.io/)
@@ -74,7 +75,6 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [Termite](https://github.com/thestinger/termite/issues/476)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
-- [xterm.js](https://github.com/xtermjs/xterm.js/issues/1134)
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
