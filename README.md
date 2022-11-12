@@ -46,6 +46,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [Symfony](https://symfony.com/): Since version 4.3.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
+- [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
 
 ### Libraries
 - [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
