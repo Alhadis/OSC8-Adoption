@@ -33,7 +33,9 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
   - [Tilix](https://github.com/gnunn1/tilix) 1.5.8
 - [WezTerm](http://wezfurlong.org/wezterm/index.html) since early 2018
-- [Alacritty](https://github.com/alacritty/alacritty/) since v0.11: ([PR](https://github.com/alacritty/alacritty/pull/6139))
+- [Alacritty](https://github.com/alacritty/alacritty/) since v0.11: [PR](https://github.com/alacritty/alacritty/pull/6139)
+- [Kitty](https://github.com/kovidgoyal/kitty/issues/68) since v0.19: [issue](https://github.com/kovidgoyal/kitty/issues/68)
+- [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138)
 
 ### Terminal Multiplexers
 - [TermySequence](https://termysequence.io/)
@@ -48,7 +50,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [systemd](https://github.com/systemd/systemd): Since version 239.
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
 - [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
-- [Groff](https://www.gnu.org/software/groff/): Staged for release on [2021-10-01](https://git.savannah.gnu.org/cgit/groff.git/commit/?id=ab73e8189988d15bae12a82c6b3eb07948eda1d7), for links to manpages.
+- [Groff](https://www.gnu.org/software/groff/): Staged for release on [2021-10-01](https://git.savannah.gnu.org/cgit/groff.git/commit/?id=ab73e8189988d15bae12a82c6b3eb07948eda1d7), for links in manpages.
 
 ### Libraries
 - [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
@@ -59,8 +61,6 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 
 ### Terminal emulators
 - [ConEmu](https://github.com/Maximus5/ConEmu/issues/2078)
-- [Kitty](https://github.com/kovidgoyal/kitty/issues/68) <sup>(The Linux and macOS terminal emulator. Not to be confused with the Windows PuTTY-fork named `KiTTY`.)</sup>
-- [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
 - `VTE`-based:
   - [LilyTerm](https://github.com/Tetralet/LilyTerm/issues/117)
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
