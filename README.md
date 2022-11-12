@@ -33,6 +33,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
   - [Tilix](https://github.com/gnunn1/tilix) 1.5.8
 - [WezTerm](http://wezfurlong.org/wezterm/index.html) since early 2018
+- [Alacritty](https://github.com/alacritty/alacritty/) since v0.11: ([PR](https://github.com/alacritty/alacritty/pull/6139))
 
 ### Terminal Multiplexers
 - [TermySequence](https://termysequence.io/)
@@ -57,7 +58,6 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 ## Feature requests sent
 
 ### Terminal emulators
-- [Alacritty](https://github.com/alacritty/alacritty/issues/922)
 - [ConEmu](https://github.com/Maximus5/ConEmu/issues/2078)
 - [Kitty](https://github.com/kovidgoyal/kitty/issues/68) <sup>(The Linux and macOS terminal emulator. Not to be confused with the Windows PuTTY-fork named `KiTTY`.)</sup>
 - [Konsole](https://bugs.kde.org/show_bug.cgi?id=379294)
