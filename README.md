@@ -2,9 +2,9 @@
 
 ---
 
-Most of the terminal emulators auto-detect when a URL appears onscreen and allow to conveniently open them (e.g. via Ctrl+click or Cmd+click, or the right click menu).
+Many terminal emulators auto-detect URLs when they appear on-screen and allow users to open them via <kbd>CTRL/CMD</kbd>+click, or from a context menu.
 
-It was, however, not possible until now for arbitrary text to point to URLs, just as on webpages.
+It was, however, not possible until recently for arbitrary text to point to URLs, just as on webpages.
 
 In spring 2017, `GNOME Terminal` and `iTerm2` have changed this.
 
@@ -14,7 +14,7 @@ In spring 2017, `GNOME Terminal` and `iTerm2` have changed this.
 
 Here's a simple command to try out the feature. The result is equivalent to this HTML link: [This is a link](http://example.com)
 
-```
+```sh
 printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 ```
 
@@ -79,7 +79,7 @@ printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 - [tbvaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
 - [tmux](https://github.com/tmux/tmux/issues/911)
 - [weechat](https://github.com/weechat/weechat/issues/1252)
-- Planned to send request soon: vim, neovim, emacs, groff, find, grep.
+
 
 ## A few use cases
 
