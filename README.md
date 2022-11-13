@@ -39,6 +39,7 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 - [Windows Terminal](https://github.com/microsoft/terminal/issues/204) since [v1.4.3141.0](https://github.com/microsoft/terminal/releases/tag/v1.4.3141.0) (2020-11-12)
 - [xterm.js](https://xtermjs.org/) since [5.0.0](https://github.com/xtermjs/xterm.js/releases/tag/5.0.0) (2022-09-16)
 - [mintty](http://mintty.github.io/) since [2.9.7](https://github.com/mintty/mintty/releases/tag/2.9.7) (2019-03-15)
+- [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start) Staged for v1.2 release on [2022-11-07](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/56334dbcda7bd54fca681d3de6cb63014dbf08b0)
 
 ### Terminal Multiplexers
 - [TermySequence](https://termysequence.io/)
@@ -72,7 +73,6 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
-  - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
