@@ -71,8 +71,6 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
   - [LilyTerm](https://github.com/Tetralet/LilyTerm/issues/117)
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
-  - [Termit](https://github.com/nonstop/termit/issues/109)
-  - [Termite](https://github.com/thestinger/termite/issues/476)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
   - [Xfce Terminal](https://bugzilla.xfce.org/show_bug.cgi?id=13534)
 
