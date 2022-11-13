@@ -15,7 +15,7 @@ In spring 2017, `GNOME Terminal` and `iTerm2` have changed this.
 Here's a simple command to try out the feature. The result is equivalent to this HTML link: [This is a link](http://example.com)
 
 ```sh
-printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
+printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 ```
 
 ## Supporting apps
