@@ -55,6 +55,7 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 - [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
 - [Groff](https://www.gnu.org/software/groff/): Staged for release on [2021-10-01](https://git.savannah.gnu.org/cgit/groff.git/commit/?id=ab73e8189988d15bae12a82c6b3eb07948eda1d7), for links in manpages.
 - [`foot`](https://codeberg.org/dnkl/foot/): Since [1.7.0](https://codeberg.org/dnkl/foot/releases/tag/1.7.0) (2021-03-20)
+- [Terminator]() since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07) <sup>(The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.)</sup>
 
 ### Libraries
 - [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
@@ -70,7 +71,6 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
   - [LilyTerm](https://github.com/Tetralet/LilyTerm/issues/117)
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
-  - [Terminator](https://bugs.launchpad.net/terminator/+bug/1686821) <sup>(The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.)</sup>
   - [Termit](https://github.com/nonstop/termit/issues/109)
   - [Termite](https://github.com/thestinger/termite/issues/476)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
