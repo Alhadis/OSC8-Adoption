@@ -81,7 +81,7 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 - [less -R](https://github.com/gwsw/less/issues/54)
 - [screen](https://savannah.gnu.org/bugs/index.php?50952)
 - [tbvaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
-- [tmux](https://github.com/tmux/tmux/issues/911)
+- [tmux](https://github.com/tmux/tmux/issues/911); a [fork](https://github.com/ppwwyyxx/tmux-hyperlink) has support
 - [weechat](https://github.com/weechat/weechat/issues/1252)
 
 
