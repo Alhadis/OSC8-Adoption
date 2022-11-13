@@ -46,7 +46,7 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 
 ### Apps
 - [gcc](https://gcc.gnu.org/): Since version 10, for [diagnostic messages to point to the documentation](https://gcc.gnu.org/onlinedocs/gcc-10.1.0/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-urls).
-- `less -R`: Preliminary patch available in the GNOME Terminal discussion.
+- [`less -R`](http://greenwoodsoftware.com/less/): since [v566](https://github.com/gwsw/less/commit/0f810ef16781bf0f59690be63af876bddabf68bf) (2020-11-25)
 - `ls --hyperlink[=always/auto/never]` (`coreutils`): Since version 8.28.
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
 - [mdcat](https://github.com/lunaryorn/mdcat) (markdown cat): Since version 0.5.0.
@@ -76,7 +76,6 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
-- [less -R](https://github.com/gwsw/less/issues/54)
 - [screen](https://savannah.gnu.org/bugs/index.php?50952)
 - [tbvaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
 - [tmux](https://github.com/tmux/tmux/issues/911); a [fork](https://github.com/ppwwyyxx/tmux-hyperlink) has support
