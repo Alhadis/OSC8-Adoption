@@ -4,15 +4,11 @@
 
 Many terminal emulators auto-detect URLs when they appear on-screen and allow users to open them via <kbd>CTRL/CMD</kbd>+click, or from a context menu.
 
-It was, however, not possible until recently for arbitrary text to point to URLs, just as on webpages.
-
-In spring 2017, `GNOME Terminal` and `iTerm2` have changed this.
-
-`GNOME Terminal` is based on the `VTE` widget, and almost all of this work went to `VTE`. As such, we expect other `VTE`-based terminal emulators to catch up and add support really soon. Other terminal emulators are also welcome and encouraged to join!
+It was, however, not possible until spring 2017 for arbitrary text to point to URLs, just as on webpages. `GNOME Terminal` and `iTerm2` have changed this.
 
 ## Quick example
 
-Here's a simple command to try out the feature. The result is equivalent to this HTML link: [This is a link](http://example.com)
+Here's a simple command to try out the feature. The result should show the following text: [This is a link](http://example.com) that points to `http://example.com`.
 
 ```sh
 printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
@@ -111,10 +107,6 @@ Ctrl+clicking anywhere on `http://exa` or `le.com` could open the webpage `http:
 ### core utilities
 
 Core utilities, such as `ls`, `find` could optionally mark the printed files with their `file://...` URI, making it just one click to open in a graphical application.
-
-### less -R
-
-We're hoping to get `less -R` recognize and handle this escape sequence just as it does colors, so viewing the output of utilities piped to `less -R` would keep their hyperlinks working.
 
 ## The escape sequence
 
