@@ -17,48 +17,48 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 ## Supporting apps
 
 ### Terminal emulators
+- [Alacritty](https://github.com/alacritty/alacritty/) since [v0.11](https://github.com/alacritty/alacritty/releases/tag/v0.11.0) (2022-10-13)
 - [DomTerm](https://domterm.org/) since [1.0.2](https://github.com/PerBothner/DomTerm/commit/19771fa894634d2423d6d097c8203892254dbcf4) (2018-05-09)
+- [`foot`](https://codeberg.org/dnkl/foot/): Since [1.7.0](https://codeberg.org/dnkl/foot/releases/tag/1.7.0) (2021-03-20)
 - [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) since [1.76](https://github.com/chromium/hterm/releases/tag/v1.76) (2018-06-21)
 - [Hyper](https://hyper.is/) since Oct 2019, version ???
 - [iTerm2](http://iterm2.com/) 3.1
+- [Kitty](https://github.com/kovidgoyal/kitty/issues/68) since v0.19: [issue](https://github.com/kovidgoyal/kitty/issues/68)
+- [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138)
+- [mintty](http://mintty.github.io/) since [2.9.7](https://github.com/mintty/mintty/releases/tag/2.9.7) (2019-03-15)
+- [Terminator](https://github.com/gnome-terminator/terminator) since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07) <sup>(The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.)</sup>
 - [Terminology](https://www.enlightenment.org/about-terminology) in git since 2018-10-14, probably will be released in version 1.3
 - [Ultimate++ terminal widget](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal) since Nov 2019 (version ???)
-- based on [VTE](https://wiki.gnome.org/Apps/Terminal/VTE) 0.50: <sup>(Use 0.50.4, 0.52.2, or newer to avoid a rare crash)</sup>
+- [VTE-based](https://wiki.gnome.org/Apps/Terminal/VTE): since 0.50 <sup>(Use 0.50.4, 0.52.2, or newer to avoid a rare crash)</sup>
   - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.26
   - [Guake](http://guake-project.org/) 3.2.1
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
   - [Tilix](https://github.com/gnunn1/tilix) 1.5.8
 - [WezTerm](http://wezfurlong.org/wezterm/index.html) since early 2018
-- [Alacritty](https://github.com/alacritty/alacritty/) since [v0.11](https://github.com/alacritty/alacritty/releases/tag/v0.11.0) (2022-10-13)
-- [Kitty](https://github.com/kovidgoyal/kitty/issues/68) since v0.19: [issue](https://github.com/kovidgoyal/kitty/issues/68)
-- [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138)
 - [Windows Terminal](https://github.com/microsoft/terminal/issues/204) since [v1.4.3141.0](https://github.com/microsoft/terminal/releases/tag/v1.4.3141.0) (2020-11-12)
-- [xterm.js](https://xtermjs.org/) since [5.0.0](https://github.com/xtermjs/xterm.js/releases/tag/5.0.0) (2022-09-16)
-- [mintty](http://mintty.github.io/) since [2.9.7](https://github.com/mintty/mintty/releases/tag/2.9.7) (2019-03-15)
 - [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start) Staged for v1.2 release on [2022-11-07](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/56334dbcda7bd54fca681d3de6cb63014dbf08b0)
-- [`foot`](https://codeberg.org/dnkl/foot/): Since [1.7.0](https://codeberg.org/dnkl/foot/releases/tag/1.7.0) (2021-03-20)
-- [Terminator](https://github.com/gnome-terminator/terminator) since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07) <sup>(The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.)</sup>
+- [xterm.js](https://xtermjs.org/) since [5.0.0](https://github.com/xtermjs/xterm.js/releases/tag/5.0.0) (2022-09-16)
 
-### Terminal Multiplexers
+### Terminal multiplexers
 - [TermySequence](https://termysequence.io/)
 
 ### Apps
-- [gcc](https://gcc.gnu.org/): Since version 10, for [diagnostic messages to point to the documentation](https://gcc.gnu.org/onlinedocs/gcc-10.1.0/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-urls).
+- [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
+- [GCC](https://gcc.gnu.org/): Since version 10, for [diagnostic messages to point to the documentation](https://gcc.gnu.org/onlinedocs/gcc-10.1.0/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-urls).
+- [Groff](https://www.gnu.org/software/groff/): Staged for release on [2021-10-01](https://git.savannah.gnu.org/cgit/groff.git/commit/?id=ab73e8189988d15bae12a82c6b3eb07948eda1d7), for links in Roff documents including man pages.
 - [`less -R`](http://greenwoodsoftware.com/less/): since [v566](https://github.com/gwsw/less/commit/0f810ef16781bf0f59690be63af876bddabf68bf) (2020-11-25)
-- `ls --hyperlink[=always/auto/never]` (`coreutils`): Since version 8.28.
+- [`ls --hyperlink[=always/auto/never]`](https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html#ls-invocation): since [`coreutils` v8.28](https://github.com/coreutils/coreutils/blob/v8.28/NEWS#L88-L89) (2017-09-02).
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
 - [mdcat](https://github.com/lunaryorn/mdcat) (markdown cat): Since version 0.5.0.
 - [Symfony](https://symfony.com/): Since version 4.3.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
-- [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
-- [Groff](https://www.gnu.org/software/groff/): Staged for release on [2021-10-01](https://git.savannah.gnu.org/cgit/groff.git/commit/?id=ab73e8189988d15bae12a82c6b3eb07948eda1d7), for links in Roff documents including man pages.
 
 ### Libraries
-- [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
-- [brick](https://hackage.haskell.org/package/brick) high-level terminal UI library: Since October 2017.
-- [Rich](https://github.com/willmcgugan/rich) rich-text formatting library: Since May 2020.
 - [`ansi_up`](https://github.com/drudru/ansi_up/) ANSI code-to-HTML conversion library: Since [v4.0.3](https://github.com/drudru/ansi_up/releases/tag/v4.0.3) (2019-02-12)
+- [`brick`](https://hackage.haskell.org/package/brick) high-level terminal UI library: Since October 2017.
+- [Rich](https://github.com/willmcgugan/rich) rich-text formatting library: Since May 2020.
+- [`vty`](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
 
 ## Feature requests sent
 
@@ -72,10 +72,10 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
-- [screen](https://savannah.gnu.org/bugs/index.php?50952)
-- [tbvaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
-- [tmux](https://github.com/tmux/tmux/issues/911); a [fork](https://github.com/ppwwyyxx/tmux-hyperlink) has support
-- [weechat](https://github.com/weechat/weechat/issues/1252)
+- [`screen`](https://savannah.gnu.org/bugs/index.php?50952)
+- [TBVaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
+- [`tmux`](https://github.com/tmux/tmux/issues/911); a [fork](https://github.com/ppwwyyxx/tmux-hyperlink) has support
+- [WeeChat](https://github.com/weechat/weechat/issues/1252)
 
 
 ## A few use cases
