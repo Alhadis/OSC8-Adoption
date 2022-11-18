@@ -7,12 +7,15 @@ Many terminal emulators auto-detect URLs when they appear on-screen and allow us
 It was, however, not possible until spring 2017 for arbitrary text to point to URLs, just as on webpages. `GNOME Terminal` and `iTerm2` have changed this.
 
 ## Quick example
-
-Here's a simple command to try out the feature. The result should show the following text: [This is a link](http://example.com) that points to `http://example.com`.
+Here's a simple command to try out the feature:
 
 ```sh
 printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 ```
+
+Running this command in an OSC8-friendly terminal will display:
+
+> <samp><a href="http://example.com">This is a link</a></samp>
 
 ## Supporting apps
 
@@ -93,16 +96,16 @@ git log, or other similar tools could make the commit IDs links to the correspon
 ### viewers, editors
 
 File viewers and editors could auto-detect URIs in the document, and convert them to hyperlinks even if they are only partially visible on the screen. Example screenshot from an imaginary text editor with two files opened:
-```
-╔═ file1 ════╗
+
+<pre><code>╔═ file1 ════╗
 ║          ╔═ file2 ═══╗
-║http://exa║Lorem ipsum║
-║le.com    ║ dolor sit ║
+║<a href="http://example.com">http://exa</a>║Lorem ipsum║
+║<a href="http://example.com">le.com</a>    ║ dolor sit ║
 ║          ║amet, conse║
 ╚══════════║ctetur adip║
-           ╚═══════════╝
-```
-Ctrl+clicking anywhere on `http://exa` or `le.com` could open the webpage `http://example.com`.
+           ╚═══════════╝</code></pre>
+
+<kbd>CTRL/CMD</kbd>+clicking anywhere on `http://exa` or `le.com` could open the webpage `http://example.com`.
 
 ### core utilities
 
@@ -152,7 +155,7 @@ Many terminal emulators automatically recognize web addresses that appear on the
 
 There's a nontrivial question though: Which cells to underline on hover? As opposed to webpages, we lack the semantics, the information about the cells that belong together and form a single web anchor.
 
-Remember the `http://exa` and `le.com` use case example above? To make the hyperlink feature complete, our imaginary text editor should be able to specify that these two pieces of text actually belong to the same anchor, and when mousing over any of these two, both should be underlined.
+Remember the `http://exa` and `le.com` use case example [above](#quick-example)? To make the hyperlink feature complete, our imaginary text editor should be able to specify that these two pieces of text actually belong to the same anchor, and when mousing over any of these two, both should be underlined.
 
 In order to be able to do this, the lowercase `id` parameter was introduced which connects the cells together.
 
