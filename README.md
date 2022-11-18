@@ -36,6 +36,8 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 - [xterm.js](https://xtermjs.org/) since [5.0.0](https://github.com/xtermjs/xterm.js/releases/tag/5.0.0) (2022-09-16)
 - [mintty](http://mintty.github.io/) since [2.9.7](https://github.com/mintty/mintty/releases/tag/2.9.7) (2019-03-15)
 - [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start) Staged for v1.2 release on [2022-11-07](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/56334dbcda7bd54fca681d3de6cb63014dbf08b0)
+- [`foot`](https://codeberg.org/dnkl/foot/): Since [1.7.0](https://codeberg.org/dnkl/foot/releases/tag/1.7.0) (2021-03-20)
+- [Terminator](https://github.com/gnome-terminator/terminator) since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07) <sup>(The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.)</sup>
 
 ### Terminal Multiplexers
 - [TermySequence](https://termysequence.io/)
@@ -51,8 +53,6 @@ printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
 - [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
 - [Groff](https://www.gnu.org/software/groff/): Staged for release on [2021-10-01](https://git.savannah.gnu.org/cgit/groff.git/commit/?id=ab73e8189988d15bae12a82c6b3eb07948eda1d7), for links in Roff documents including man pages.
-- [`foot`](https://codeberg.org/dnkl/foot/): Since [1.7.0](https://codeberg.org/dnkl/foot/releases/tag/1.7.0) (2021-03-20)
-- [Terminator](https://github.com/gnome-terminator/terminator) since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07) <sup>(The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.)</sup>
 
 ### Libraries
 - [vty](https://hackage.haskell.org/package/vty) medium-level terminal UI library: Since October 2017.
