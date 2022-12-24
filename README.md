@@ -44,6 +44,8 @@ Running this command in an OSC8-friendly terminal will display:
 
 ### Terminal multiplexers
 - [TermySequence](https://termysequence.io/)
+- [`tmux`](https://github.com/tmux/tmux): Staged for release on [2022-06-30](https://github.com/tmux/tmux/commit/cdacc12ce305ad2f3e65e2a01328a988e3200b51) <sup>(Requires user to add `set -ga terminal-features "*:hyperlinks"` to their config)</sup>
+  - [`tmux-hyperlink`](https://github.com/ppwwyyxx/tmux-hyperlink): Fork of `tmux` with out-of-the-box support
 
 ### Apps
 - [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
@@ -77,7 +79,6 @@ Running this command in an OSC8-friendly terminal will display:
 - [Irssi](https://github.com/irssi/irssi/issues/700)
 - [`screen`](https://savannah.gnu.org/bugs/index.php?50952)
 - [TBVaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
-- [`tmux`](https://github.com/tmux/tmux/issues/911); a [fork](https://github.com/ppwwyyxx/tmux-hyperlink) has support
 - [WeeChat](https://github.com/weechat/weechat/issues/1252)
 
 
