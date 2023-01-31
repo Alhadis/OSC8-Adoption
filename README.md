@@ -58,6 +58,7 @@ Running this command in an OSC8-friendly terminal will display:
 - [Symfony](https://symfony.com/): Since version 4.3.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
+- [delta](https://github.com/dandavison/delta/): Since v0.4 (2020), for showing links to files and github commit. 
 
 ### Libraries
 - [`ansi_up`](https://github.com/drudru/ansi_up/) ANSI code-to-HTML conversion library: Since [v4.0.3](https://github.com/drudru/ansi_up/releases/tag/v4.0.3) (2019-02-12)
