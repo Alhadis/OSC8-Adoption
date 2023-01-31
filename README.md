@@ -50,6 +50,7 @@ Running this command in an OSC8-friendly terminal will display:
 ### Apps
 - [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
 - [GCC](https://gcc.gnu.org/): Since version 10, for [diagnostic messages to point to the documentation](https://gcc.gnu.org/onlinedocs/gcc-10.1.0/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-urls).
+- [Delta](https://github.com/dandavison/delta): Since [v0.4](https://github.com/dandavison/delta/releases/tag/0.4.0) (2020-08-04), for linking to files and GitHub commits
 - [Groff](https://www.gnu.org/software/groff/): Staged for release on [2021-10-01](https://git.savannah.gnu.org/cgit/groff.git/commit/?id=ab73e8189988d15bae12a82c6b3eb07948eda1d7), for links in Roff documents including man pages.
 - [`less -R`](http://greenwoodsoftware.com/less/): since [v566](https://github.com/gwsw/less/commit/0f810ef16781bf0f59690be63af876bddabf68bf) (2020-11-25)
 - [`ls --hyperlink[=always/auto/never]`](https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html#ls-invocation): since [`coreutils` v8.28](https://github.com/coreutils/coreutils/blob/v8.28/NEWS#L88-L89) (2017-09-02).
@@ -58,7 +59,6 @@ Running this command in an OSC8-friendly terminal will display:
 - [Symfony](https://symfony.com/): Since version 4.3.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
-- [delta](https://github.com/dandavison/delta/): Since v0.4 (2020), for showing links to files and github commit. 
 
 ### Libraries
 - [`ansi_up`](https://github.com/drudru/ansi_up/) ANSI code-to-HTML conversion library: Since [v4.0.3](https://github.com/drudru/ansi_up/releases/tag/v4.0.3) (2019-02-12)
