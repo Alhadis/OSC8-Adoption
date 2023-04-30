@@ -28,13 +28,13 @@ Support
 - [Kitty](https://github.com/kovidgoyal/kitty/issues/68) since v0.19: [issue](https://github.com/kovidgoyal/kitty/issues/68)
 - [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138)
 - [mintty](http://mintty.github.io/) since [2.9.7](https://github.com/mintty/mintty/releases/tag/2.9.7) (2019-03-15)
-- [Terminology](https://www.enlightenment.org/about-terminology) in git since 2018-10-14, probably will be released in version 1.3
+- [Terminology](https://www.enlightenment.org/about-terminology) in Git since 2018-10-14, probably will be released in version 1.3
 - [Ultimate++ terminal widget](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal) since Nov 2019 (version ???)
-- [VTE-based](https://wiki.gnome.org/Apps/Terminal/VTE): since 0.50 <sup>(Use 0.50.4, 0.52.2, or newer to avoid a rare crash)</sup>
+- [VTE-based](https://wiki.gnome.org/Apps/Terminal/VTE): since 0.50[^1]
   - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.26
   - [Guake](http://guake-project.org/) 3.2.1
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
-  - [Terminator](https://github.com/gnome-terminator/terminator) since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07) <sup>(The one for Linux written in Python, based on GTK+. Not to be confused with the one written in Java bearing the same name.)</sup>
+  - [Terminator](https://github.com/gnome-terminator/terminator)[^2]: since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07)
   - [Tilix](https://github.com/gnunn1/tilix) 1.5.8
   - [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start) Staged for v1.2 release on [2022-11-07](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/56334dbcda7bd54fca681d3de6cb63014dbf08b0)
 - [WezTerm](http://wezfurlong.org/wezterm/index.html) since early 2018
@@ -43,7 +43,7 @@ Support
 
 ### Terminal multiplexers
 - [TermySequence](https://termysequence.io/)
-- [`tmux`](https://github.com/tmux/tmux): Staged for release on [2022-06-30](https://github.com/tmux/tmux/commit/cdacc12ce305ad2f3e65e2a01328a988e3200b51) <sup>(Requires user to add `set -ga terminal-features "*:hyperlinks"` to their config)</sup>
+- [`tmux`](https://github.com/tmux/tmux): Staged for release on [2022-06-30](https://github.com/tmux/tmux/commit/cdacc12ce305ad2f3e65e2a01328a988e3200b51)[^3]
   - [`tmux-hyperlink`](https://github.com/ppwwyyxx/tmux-hyperlink): Fork of `tmux` with out-of-the-box support
 
 ### Apps
@@ -92,3 +92,9 @@ Links
 - [GNOME Terminal discussion](https://bugzilla.gnome.org/show_bug.cgi?id=779734)
 - [iTerm2 discussion](https://gitlab.com/gnachman/iterm2/issues/5158)
 - [Test file](https://git.gnome.org/browse/vte/plain/perf/hyperlink-demo.txt)
+
+
+<!-- Footnotes -->
+[^1]: Use VTE 0.50.4, 0.52.2, or newer to avoid a rare crash.
+[^2]: Refers to the "Terminator" program written in Python for Linux, based on GTK+. Not to be confused with the one written in Java [bearing the same name](https://code.google.com/archive/p/jessies/wikis/Terminator.wiki).
+[^3]: Requires user to add `set -ga terminal-features "*:hyperlinks"` to their tmux config
