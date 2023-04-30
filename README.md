@@ -1,6 +1,6 @@
 OSC 8 adoption in terminal emulators
 ====================================
-This document tracks in-the-wild support for terminal hyperlinks (a.k.a., [OSC 8](https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda)), primarily amongst terminal emulators.
+This document tracks in-the-wild support for terminal hyperlinks (a.k.a., [OSC 8](https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda)), primarily amongst [terminal emulators](https://en.wikipedia.org/wiki/List_of_terminal_emulators).
 
 
 Testing support
