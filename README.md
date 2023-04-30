@@ -23,13 +23,13 @@ Support
 - [DomTerm](https://domterm.org/) since [1.0.2](https://github.com/PerBothner/DomTerm/commit/19771fa894634d2423d6d097c8203892254dbcf4) (2018-05-09)
 - [`foot`](https://codeberg.org/dnkl/foot/): Since [1.7.0](https://codeberg.org/dnkl/foot/releases/tag/1.7.0) (2021-03-20)
 - [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) since [1.76](https://github.com/chromium/hterm/releases/tag/v1.76) (2018-06-21)
-- [Hyper](https://hyper.is/) since Oct 2019, version ???
+- [Hyper](https://hyper.is/) since Oct 2019
 - [iTerm2](http://iterm2.com/) 3.1
 - [Kitty](https://github.com/kovidgoyal/kitty/issues/68) since v0.19: [issue](https://github.com/kovidgoyal/kitty/issues/68)
 - [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138)
 - [mintty](http://mintty.github.io/) since [2.9.7](https://github.com/mintty/mintty/releases/tag/2.9.7) (2019-03-15)
 - [Terminology](https://www.enlightenment.org/about-terminology) in Git since 2018-10-14, probably will be released in version 1.3
-- [Ultimate++ terminal widget](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal) since Nov 2019 (version ???)
+- [Ultimate++ terminal widget](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal) since Nov 2019
 - [VTE-based](https://wiki.gnome.org/Apps/Terminal/VTE): since 0.50[^1]
   - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.26
   - [Guake](http://guake-project.org/) 3.2.1
@@ -58,7 +58,7 @@ Support
 - [mdcat](https://github.com/lunaryorn/mdcat) (markdown cat): Since version 0.5.0.
 - [Symfony](https://symfony.com/): Since version 4.3.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
-- [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019 (version ???).
+- [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019
 
 
 ### Libraries
