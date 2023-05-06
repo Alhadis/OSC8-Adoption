@@ -56,6 +56,7 @@ Support
 - [`lsd --hyperlink[=always/auto/never]`](https://github.com/Peltoche/lsd/): since lsd 0.22 (2022-04).
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
 - [mdcat](https://github.com/lunaryorn/mdcat) (markdown cat): Since version 0.5.0.
+- [moar](https://github.com/walles/moar): Since version [v1.14.0](https://github.com/walles/moar/releases/tag/v1.14.0) (2023-05-03)
 - [Symfony](https://symfony.com/): Since version 4.3.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019
