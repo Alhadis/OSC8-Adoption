@@ -47,6 +47,7 @@ Support
   - [`tmux-hyperlink`](https://github.com/ppwwyyxx/tmux-hyperlink): Fork of `tmux` with out-of-the-box support
 
 ### Apps
+- [Neovim](https://neovim.io/): latest version supports rendering texts with hyperlinks (since [this PR](https://github.com/neovim/neovim/pull/27109)).
 - [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
 - [GCC](https://gcc.gnu.org/): Since version 10, for [diagnostic messages to point to the documentation](https://gcc.gnu.org/onlinedocs/gcc-10.1.0/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-urls).
 - [Delta](https://github.com/dandavison/delta): Since [v0.4](https://github.com/dandavison/delta/releases/tag/0.4.0) (2020-08-04), for linking to files and GitHub commits
