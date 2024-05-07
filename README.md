@@ -81,9 +81,11 @@ Pending feature requests
   - [MATE Terminal](https://github.com/mate-desktop/mate-terminal/issues/175)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
 
+### Terminal multiplexers
+- [`screen`](https://savannah.gnu.org/bugs/index.php?50952)
+
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
-- [`screen`](https://savannah.gnu.org/bugs/index.php?50952)
 - [TBVaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
 - [WeeChat](https://github.com/weechat/weechat/issues/1252)
 
