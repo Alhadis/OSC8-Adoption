@@ -43,8 +43,7 @@ Support
 
 ### Terminal multiplexers
 - [TermySequence](https://termysequence.io/)
-- [`tmux`](https://github.com/tmux/tmux): Staged for release on [2022-06-30](https://github.com/tmux/tmux/commit/cdacc12ce305ad2f3e65e2a01328a988e3200b51)[^3]
-  - [`tmux-hyperlink`](https://github.com/ppwwyyxx/tmux-hyperlink): Fork of `tmux` with out-of-the-box support
+- [tmux](https://github.com/tmux/tmux): since [v3.4](https://github.com/tmux/tmux/releases/tag/3.4)[^3]
 
 ### Apps
 - [Neovim](https://neovim.io/): latest version supports rendering texts with hyperlinks (since [this PR](https://github.com/neovim/neovim/pull/27109)).
