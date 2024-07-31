@@ -22,6 +22,7 @@ Support
 - [Alacritty](https://github.com/alacritty/alacritty/) since [v0.11](https://github.com/alacritty/alacritty/releases/tag/v0.11.0) (2022-10-13)
 - [DomTerm](https://domterm.org/) since [1.0.2](https://github.com/PerBothner/DomTerm/commit/19771fa894634d2423d6d097c8203892254dbcf4) (2018-05-09)
 - [`foot`](https://codeberg.org/dnkl/foot/): Since [1.7.0](https://codeberg.org/dnkl/foot/releases/tag/1.7.0) (2021-03-20)
+- [Ghostty](https://github.com/ghostty-org) since [#1928](https://github.com/ghostty-org/ghostty/pull/1928) (2024-07-07)
 - [hterm](https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/) since [1.76](https://github.com/chromium/hterm/releases/tag/v1.76) (2018-06-21)
 - [Hyper](https://hyper.is/) since Oct 2019
 - [iTerm2](http://iterm2.com/) 3.1
