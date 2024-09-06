@@ -51,6 +51,8 @@ Support
 - [`eza`](https://eza.rocks/): (successor to [`exa`](https://github.com/ogham/exa/issues/396#issuecomment-1834264733)): Since version [v0.10.3](https://github.com/eza-community/eza/releases/tag/v0.10.3) (2023-07-31)
 - [GCC](https://gcc.gnu.org/): Since version 10 (and [greatly expanded in version 14](https://gcc.gnu.org/pipermail/gcc-patches/2023-November/635186.html)), for [diagnostic messages to point to the documentation](https://gcc.gnu.org/onlinedocs/gcc-10.1.0/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-urls).
 - [Delta](https://github.com/dandavison/delta): Since [v0.4](https://github.com/dandavison/delta/releases/tag/0.4.0) (2020-08-04), for linking to files and GitHub commits
+- [`fd --hyperlink[=always/auto/never]`](https://github.com/sharkdp/fd): Since [v10.2.0](https://github.com/sharkdp/fd/releases/tag/v10.2.0) (2024-08-23)
+- [`fzf`](https://github.com/junegunn/fzf): Since [v0.55.0](https://github.com/junegunn/fzf/releases/tag/v0.55.0) (2024-08-29)
 - [groff](https://www.gnu.org/software/groff/): Since [1.23.0](https://git.savannah.gnu.org/cgit/groff.git/tag/?h=1.23.0) (2023-07-05), for links in `roff` documents, including man pages.
 - [`less -R`](http://greenwoodsoftware.com/less/): since [v566](https://github.com/gwsw/less/commit/0f810ef16781bf0f59690be63af876bddabf68bf) (2020-11-25)
 - [`ls --hyperlink[=always/auto/never]`](https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html#ls-invocation): since [`coreutils` v8.28](https://github.com/coreutils/coreutils/blob/v8.28/NEWS#L88-L89) (2017-09-02).
@@ -58,6 +60,7 @@ Support
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
 - [mdcat](https://github.com/lunaryorn/mdcat) (markdown cat): Since version 0.5.0.
 - [moar](https://github.com/walles/moar) (pager, `less` replacement): Since version [v1.14.0](https://github.com/walles/moar/releases/tag/v1.14.0) (2023-05-03)
+- [ripgrep](https://github.com/BurntSushi/ripgrep): Since [v14.0.0](https://github.com/BurntSushi/ripgrep/releases/tag/14.0.0) (2023-11-27)
 - [Symfony](https://symfony.com/): Since version 4.3.
 - [systemd](https://github.com/systemd/systemd): Since version 239.
 - [wget2](https://gitlab.com/gnuwget/wget2/): Since Nov 2019
