@@ -49,6 +49,7 @@ Support
 - [Neovim](https://neovim.io/): latest version supports rendering texts with hyperlinks (since [this PR](https://github.com/neovim/neovim/pull/27109)).
 - [Emacs](https://www.gnu.org/software/emacs/): Since [28.1](https://www.gnu.org/software/emacs/news/NEWS.28.1) (2022-04-04)
 - [`eza`](https://eza.rocks/): (successor to [`exa`](https://github.com/ogham/exa/issues/396#issuecomment-1834264733)): Since version [v0.10.3](https://github.com/eza-community/eza/releases/tag/v0.10.3) (2023-07-31)
+- [`lc --hyperlink`](https://github.com/c-blake/lc): (Nim-based file lister): Since July 2019
 - [GCC](https://gcc.gnu.org/): Since version 10 (and [greatly expanded in version 14](https://gcc.gnu.org/pipermail/gcc-patches/2023-November/635186.html)), for [diagnostic messages to point to the documentation](https://gcc.gnu.org/onlinedocs/gcc-10.1.0/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-urls).
 - [Delta](https://github.com/dandavison/delta): Since [v0.4](https://github.com/dandavison/delta/releases/tag/0.4.0) (2020-08-04), for linking to files and GitHub commits
 - [`fd --hyperlink[=always/auto/never]`](https://github.com/sharkdp/fd): Since [v10.2.0](https://github.com/sharkdp/fd/releases/tag/v10.2.0) (2024-08-23)
