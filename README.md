@@ -40,6 +40,7 @@ Support
 - [WezTerm](http://wezfurlong.org/wezterm/index.html) since early 2018
 - [Windows Terminal](https://github.com/microsoft/terminal/issues/204) since [v1.4.3141.0](https://github.com/microsoft/terminal/releases/tag/v1.4.3141.0) (2020-11-12)
 - [xterm.js](https://xtermjs.org/) since [5.0.0](https://github.com/xtermjs/xterm.js/releases/tag/5.0.0) (2022-09-16)
+  - [VS Code](https://code.visualstudio.com/): since [v1.72](https://github.com/microsoft/vscode/releases/tag/1.72.0) (2022-09)
 
 ### Terminal multiplexers
 - [TermySequence](https://termysequence.io/)
