@@ -36,7 +36,7 @@ Support
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
   - [Terminator](https://github.com/gnome-terminator/terminator)[^2]: since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07)
   - [Tilix](https://github.com/gnunn1/tilix) 1.5.8
-  - [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start) Staged for v1.2 release on [2022-11-07](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/56334dbcda7bd54fca681d3de6cb63014dbf08b0)
+  - [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start) since [1.1.0](https://gitlab.xfce.org/apps/xfce4-terminal/-/tags/xfce4-terminal-1.1.0) (2023-08-22)
 - [WezTerm](http://wezfurlong.org/wezterm/index.html) since early 2018
 - [Windows Terminal](https://github.com/microsoft/terminal/issues/204) since [v1.4.3141.0](https://github.com/microsoft/terminal/releases/tag/v1.4.3141.0) (2020-11-12)
 - [xterm.js](https://xtermjs.org/) since [5.0.0](https://github.com/xtermjs/xterm.js/releases/tag/5.0.0) (2022-09-16)
