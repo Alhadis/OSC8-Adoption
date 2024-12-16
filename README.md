@@ -26,12 +26,14 @@ Support
 - [Hyper](https://hyper.is/) since Oct 2019
 - [iTerm2](http://iterm2.com/) 3.1
 - [Kitty](https://github.com/kovidgoyal/kitty/issues/68) since v0.19: [issue](https://github.com/kovidgoyal/kitty/issues/68)
-- [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138)
+- [Konsole](https://konsole.kde.org/) since [Jul 2020](https://invent.kde.org/utilities/konsole/-/merge_requests/138) (disabled by default)
 - [mintty](http://mintty.github.io/) since [2.9.7](https://github.com/mintty/mintty/releases/tag/2.9.7) (2019-03-15)
 - [Terminology](https://www.enlightenment.org/about-terminology) in Git since 2018-10-14, probably will be released in version 1.3
 - [Ultimate++ terminal widget](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal) since Nov 2019
 - [VTE-based](https://wiki.gnome.org/Apps/Terminal/VTE): since 0.50[^1]
-  - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.26
+  - [Ptyxis](https://devsuite.app/ptyxis/) 47.6 (copy, open)
+  - [GNOME Console](https://apps.gnome.org/Console/) 46.0 (hover, copy, open)
+  - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) 3.26 (hover, copy, open)
   - [Guake](http://guake-project.org/) 3.2.1
   - [ROXTerm](https://github.com/realh/roxterm) 3.5.1
   - [Terminator](https://github.com/gnome-terminator/terminator)[^2]: since [v2.0](https://github.com/gnome-terminator/terminator/blob/v2.0/CHANGELOG.md) (2020-10-07)
