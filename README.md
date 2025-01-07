@@ -47,6 +47,7 @@ Support
 ### Terminal multiplexers
 - [TermySequence](https://termysequence.io/)
 - [tmux](https://github.com/tmux/tmux): since [v3.4](https://github.com/tmux/tmux/releases/tag/3.4)[^3]
+- [Zellij](https://github.com/zellij-org/zellij): since [v0.21.0](https://github.com/zellij-org/zellij/releases/tag/v0.21.0) (2021-11-29)
 
 ### Apps
 - [Neovim](https://neovim.io/): latest version supports rendering texts with hyperlinks (since [this PR](https://github.com/neovim/neovim/pull/27109)).
