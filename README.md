@@ -95,6 +95,7 @@ Pending feature requests
 
 ### Apps
 - [Irssi](https://github.com/irssi/irssi/issues/700)
+- [NeoMutt](https://github.com/neomutt/neomutt/issues/4654)
 - [TBVaccine](https://github.com/skorokithakis/tbvaccine/issues/37)
 - [WeeChat](https://github.com/weechat/weechat/issues/1252)
 
