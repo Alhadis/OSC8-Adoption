@@ -91,6 +91,7 @@ Pending feature requests
   - [LilyTerm](https://github.com/Tetralet/LilyTerm/issues/117)
   - [LXDE Terminal](https://sourceforge.net/p/lxde/bugs/870/)
   - [Tilda](https://github.com/lanoxx/tilda/issues/285)
+  - [Gitlab CI output viewer](https://gitlab.com/gitlab-org/gitlab/-/issues/288333)
 
 ### Terminal multiplexers
 - [`screen`](https://savannah.gnu.org/bugs/index.php?50952)
