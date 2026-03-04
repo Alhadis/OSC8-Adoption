@@ -69,6 +69,7 @@ Support
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) chat client: Since version 40400.0.0.
 - [mdcat](https://github.com/lunaryorn/mdcat) (markdown cat): Since version 0.5.0.
 - [moor](https://github.com/walles/moor) (pager, `less` replacement): Since version [v1.14.0](https://github.com/walles/moor/releases/tag/v1.14.0) (2023-05-03)
+- [Mudlet](https://www.mudlet.org/) client for playing multi-user dungeons (MUDs): Since version [4.20.0](https://github.com/Mudlet/Mudlet/releases/tag/Mudlet-4.20.0), [wiki](https://wiki.mudlet.org/w/Manual:Supported_Protocols#OSC_8:_Hyperlink_Protocol)
 - [Neovim](https://neovim.io/): latest version supports rendering texts with hyperlinks (since [this PR](https://github.com/neovim/neovim/pull/27109)).
 - [ripgrep](https://github.com/BurntSushi/ripgrep): Since [v14.0.0](https://github.com/BurntSushi/ripgrep/releases/tag/14.0.0) (2023-11-27)
 - [Symfony](https://symfony.com/): Since version 4.3.
