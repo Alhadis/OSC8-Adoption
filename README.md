@@ -64,6 +64,7 @@ Support
 - [Groff](https://www.gnu.org/software/groff/): Since [1.23.0](https://git.savannah.gnu.org/cgit/groff.git/tag/?h=1.23.0) (2023-07-05), for links in `roff` documents, including man pages.
 - [`lc --hyperlink`](https://github.com/c-blake/lc): (Nim-based file lister): Since July 2019
 - [`less -R`](http://greenwoodsoftware.com/less/): since [v566](https://github.com/gwsw/less/commit/0f810ef16781bf0f59690be63af876bddabf68bf) (2020-11-25)
+- [`lf`](https://github.com/gokcehan/lf) (terminal file manager): Since [r39](https://github.com/gokcehan/lf/releases/tag/r39) (2025-12-02)
 - [`ls --hyperlink[=always/auto/never]`](https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html#ls-invocation): since [`coreutils` v8.28](https://github.com/coreutils/coreutils/blob/v8.28/NEWS#L88-L89) (2017-09-02).
 - [`lsd --hyperlink[=always/auto/never]`](https://github.com/Peltoche/lsd/): since lsd 0.22 (2022-04).
 - [Matterhorn](https://github.com/matterhorn-chat/matterhorn) (chat client): Since version 40400.0.0.
