@@ -8,12 +8,12 @@ Testing support
 To determine if your terminal emulator supports hyperlinks, run the following command:
 
 ```sh
-printf '\033]8;;http://example.com\033\\This is a link\033]8;;\033\\\n'
+printf '\033]8;;https://example.com\033\\This is a link\033]8;;\033\\\n'
 ```
 
 In an OSC 8-compatible terminal, you should see something to the effect of:
 
-> <samp><a href="http://example.com">This is a link</a></samp>
+> <samp><a href="https://example.com">This is a link</a></samp>
 
 
 Support
