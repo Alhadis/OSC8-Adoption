@@ -80,6 +80,7 @@ Support
 
 ### Libraries
 - [`ansi_up`](https://github.com/drudru/ansi_up/) (ANSI code-to-HTML conversion library): Since [v4.0.3](https://github.com/drudru/ansi_up/releases/tag/v4.0.3) (2019-02-12)
+- [`ansis`](https://github.com/webdiscus/ansis) (Node.js ANSI color library for use in terminals): Since [v4.3.0](https://github.com/webdiscus/ansis/releases/tag/v4.3.0) (2026-05-11)
 - [`brick`](https://hackage.haskell.org/package/brick) (high-level terminal UI library): Since October 2017.
 - [Rich](https://github.com/willmcgugan/rich) (rich-text formatting library): Since May 2020.
 - [`vty`](https://hackage.haskell.org/package/vty) (medium-level terminal UI library): Since October 2017.
